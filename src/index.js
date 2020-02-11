@@ -6,7 +6,7 @@ class Prueba extends Component {
  render() {
 
    return (
-     <h1> Aqui va la pagina de KCan HD </h1>
+     <h1> Aqui va la pagina de KCanHD </h1>
    )
 
   }
