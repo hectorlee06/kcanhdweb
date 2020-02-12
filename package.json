@@ -1,14 +1,14 @@
 {
   "name": "webpack_practica",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web pages of Kcan HD, youtubers improves",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
     "dev": "concurrently \"node server.js\" \"webpack -w\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webpack", "babel","javascript"],
+  "author": "elgenio",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
