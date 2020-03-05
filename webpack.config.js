@@ -25,8 +25,15 @@ module.exports = {
           // Compiles Sass to CSS
           'sass-loader',
         ],
+        
         exclude: /node_modules/
 
+      },
+      {
+        test: /\.(jpg|png)$/,
+        use: [
+              'url-loader',
+        ],
       },
        
       

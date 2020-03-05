@@ -1,9 +1,118 @@
-$div-color : blue;
+@media (min-width: 536px){
 
-.principalpage{
-background-color: red;
-height: 15rem;
 }
-div {
-  color: $div-color;
+
+@media (min-width: 686px){
+
+}
+
+@media (min-width: 991px){
+
+}
+@media (min-width: 1280px) {
+#hr{
+  background-color: yellow;
+}
+.navbar{
+
+  width: 100%;
+  flex-direction: column;
+
+};
+.navbar--img{
+  flex-direction: row;
+  width: 50%;
+
+};
+
+.navabar--logo{
+  margin-left: 5em;
+  margin-top: 2em;
+  width: 15em;
+  height: 5em;
+};
+#typografy{
+  margin-left: 21em;
+  margin-top: -2em;
+};
+
+#buttonsub{
+  background-color: yellow;
+  font-weight: 600;
+  margin-left: 77em;
+  margin-top: -4em;
+}
+.navbar-ul{
+  flex-direction: row;
+  width: 50%;
+  
+};
+
+#navbar-ul_link{
+ 
+  color:gray;
+  margin: 2em;
+  text-decoration: none;
+};
+#navbar-ul_link:active{
+  color: yellow;
+  font-weight: 600;
+};
+
+#navbar-ul_link:hover{
+  color: #000;
+
+}
+
+.portal{
+  padding: 1px;
+  background-color:#3197d6;
+}
+
+.portal--h1{
+   color: #ffffff;
+   text-align: center;
+
+};
+.portal--img{
+  width: 23em;
+  height: 22em;
+  margin-left: 29em;
+
+};
+.portal--h2{
+
+  color: #ffffff;
+  text-align: center;
+
+};
+
+.videos--h1{
+  text-align: center;
+}
+
+#imgcard{
+
+  width: 26em;
+  height: 14em;
+}
+
+#titulocard{
+  text-decoration: none;
+    color: #000;
+}
+
+#spancard{
+  color: gray;
+}
+
+#card{
+  margin: 1em;
+    padding: 1em;
+}
+
+.videobody{    
+  display: -webkit-inline-box;
+  margin-left: 3em;
+}
 }
