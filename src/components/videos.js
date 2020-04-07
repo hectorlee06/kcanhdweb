@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-
+import Divider from '@material-ui/core/Divider';
 
 import Carditem from './carditem'
 
@@ -11,7 +11,12 @@ class Videos extends Component {
     return (
      <div className="videos">
     
-        <h1  className="videos--h1">Videos Recientes</h1>
+       
+        <div className="portal">
+        <a name="videos"></a>
+        <h1 className="videos--h1"> Videos Recientes</h1>
+        <Divider id="hr"/>
+        </div>
         <div className="videobody">
           <Carditem   href={{
             imagen: 'https://img.youtube.com/vi/J2EXn8mmLGc/maxresdefault.jpg',
