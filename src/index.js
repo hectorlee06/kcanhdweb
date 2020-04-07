@@ -21,7 +21,7 @@ return (
        <Divider id="hr"/>
        <Portal/>
        <Divider id="hr"/>
-       <Videos/>
+     
 
   </div>
 
