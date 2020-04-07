@@ -5,9 +5,15 @@ import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
 import '../sass/style.scss';
 
+//import {Link} from 'react-router'
 import logo from '../img/logo.png';
 
+import Videos from "./videospage";
 class Navbar extends Component {
+
+  rendirisando (){
+    return Videos;
+  }
  render() {
 
    return (
@@ -20,10 +26,10 @@ class Navbar extends Component {
 
         <div className="navbar-ul">
         <Typography id="typografy">
-            <Link  id="navbar-ul_link" href="#" >
+            <Link  id="navbar-ul_link" href="/" >
               Inicio
             </Link>
-            <Link id="navbar-ul_link" href="#" >
+            <Link to={Videos} id="navbar-ul_link" href="#videos" >
               Videos
             </Link>
             <Link  id="navbar-ul_link" href="#" >

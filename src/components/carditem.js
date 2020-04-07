@@ -44,14 +44,6 @@ export default function MediaCard( prop ) {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Compartir 
-        </Button>
-        <Button size="small" color="primary">
-          Leer Mas
-        </Button>
-      </CardActions>
     </Card>
   );
 }
